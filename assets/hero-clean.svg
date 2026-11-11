@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 650" fill="none">
+<defs>
+  <linearGradient id="orb" x1="124" y1="102" x2="638" y2="551" gradientUnits="userSpaceOnUse"><stop stop-color="#B6F1CD"/><stop offset="1" stop-color="#81CDBB"/></linearGradient>
+  <linearGradient id="back" x1="253" y1="265" x2="483" y2="520" gradientUnits="userSpaceOnUse"><stop stop-color="#FFF4D9"/><stop offset="1" stop-color="#D8D5B9"/></linearGradient>
+  <linearGradient id="seat" x1="145" y1="360" x2="590" y2="548" gradientUnits="userSpaceOnUse"><stop stop-color="#FDF2DD"/><stop offset="1" stop-color="#D8D3B7"/></linearGradient>
+  <linearGradient id="machine" x1="528" y1="447" x2="633" y2="552" gradientUnits="userSpaceOnUse"><stop stop-color="#6EEDD0"/><stop offset="1" stop-color="#26A592"/></linearGradient>
+  <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="16"/></filter>
+</defs>
+<circle cx="390" cy="297" r="241" fill="url(#orb)"/>
+<circle cx="390" cy="297" r="281" stroke="#B6F1CD" stroke-opacity=".18" stroke-width="1.5" stroke-dasharray="4 12"/>
+<circle cx="390" cy="297" r="202" stroke="#F3FFEF" stroke-opacity=".24" stroke-width="1.5"/>
+<circle cx="111" cy="182" r="13" fill="#C8FBDD"/><circle cx="625" cy="141" r="7" fill="#F2BC83"/>
+<path d="M166 121c4 16 14 26 31 30-17 4-27 14-31 30-4-16-14-26-31-30 17-4 27-14 31-30Z" fill="#E5C18A"/>
+<path d="M616 247c4 12 11 19 23 23-12 4-19 11-23 23-4-12-11-19-23-23 12-4 19-11 23-23Z" fill="#F9F3D8"/>
+<path d="M532 83c4 10 10 16 20 20-10 4-16 10-20 20-4-10-10-16-20-20 10-4 16-10 20-20Z" fill="#E9FEEC"/>
+<ellipse cx="394" cy="546" rx="260" ry="32" fill="#092923" fill-opacity=".38" filter="url(#shadow)"/>
+<!-- rear feet -->
+<path d="M190 489h33l-9 73h-26l2-73ZM520 489h34l-1 73h-26l-7-73Z" fill="#836C5C"/><path d="M192 551h24v11h-24zM529 550h25v12h-25z" fill="#5C544B"/>
+<!-- cushions and back -->
+<rect x="165" y="250" width="412" height="211" rx="67" fill="#D8D2B8" stroke="#C1BDA4" stroke-width="6"/>
+<rect x="179" y="240" width="187" height="201" rx="59" fill="url(#back)" stroke="#EFE2C5" stroke-width="5"/>
+<rect x="375" y="240" width="187" height="201" rx="59" fill="url(#back)" stroke="#EFE2C5" stroke-width="5"/>
+<path d="M364 279c-10 48-10 112 0 150" stroke="#C7C3AB" stroke-width="5" stroke-linecap="round"/>
+<path d="M225 285c-12 25-13 54-10 75M415 286c-10 24-12 50-10 77" stroke="#FFFFFF" stroke-opacity=".62" stroke-width="7" stroke-linecap="round"/>
+<!-- armrests -->
+<rect x="117" y="362" width="110" height="151" rx="51" fill="#D8D1B9" stroke="#C9C1A6" stroke-width="5"/>
+<rect x="518" y="362" width="111" height="151" rx="51" fill="#D8D1B9" stroke="#C9C1A6" stroke-width="5"/>
+<path d="M147 401c7-12 17-18 30-18" stroke="#F8F0DE" stroke-width="8" stroke-linecap="round"/>
+<path d="M547 401c7-12 17-18 30-18" stroke="#F8F0DE" stroke-width="8" stroke-linecap="round"/>
+<!-- seat bottom -->
+<rect x="181" y="404" width="384" height="110" rx="31" fill="url(#seat)" stroke="#D8D1B6" stroke-width="6"/>
+<path d="M370 420v81" stroke="#D5CEB4" stroke-width="5" stroke-linecap="round"/>
+<path d="M216 439c45-8 90-8 134 0M395 439c45-8 90-8 134 0" stroke="#FDF9EA" stroke-opacity=".6" stroke-width="5" stroke-linecap="round"/>
+<!-- throw pillow -->
+<g transform="rotate(-12 258 368)"><rect x="228" y="337" width="76" height="68" rx="19" fill="#E8B887" stroke="#F2D0AB" stroke-width="4"/><path d="M244 370h43M266 350v41" stroke="#F9DFBF" stroke-width="3" stroke-linecap="round"/></g>
+<!-- little vacuum machine -->
+<ellipse cx="601" cy="553" rx="68" ry="19" fill="#16443B" fill-opacity=".28"/>
+<rect x="552" y="457" width="99" height="88" rx="21" fill="url(#machine)" stroke="#147A71" stroke-width="5"/>
+<path d="M571 457v-20c0-17 13-31 30-31s30 14 30 31v20" stroke="#D4FFE5" stroke-width="12" stroke-linecap="round"/>
+<circle cx="576" cy="539" r="13" fill="#163D38"/><circle cx="629" cy="539" r="13" fill="#163D38"/>
+<circle cx="602" cy="495" r="17" fill="#E8FFF1"/><path d="M602 482v26M590 495h25" stroke="#45BDA7" stroke-width="3" stroke-linecap="round"/>
+<path d="M649 484c43-32 29-85 0-105-35-24-75-17-86-49" stroke="#1B665F" stroke-width="13" stroke-linecap="round"/>
+<path d="M649 484c43-32 29-85 0-105-35-24-75-17-86-49" stroke="#7EECD1" stroke-width="6" stroke-linecap="round"/>
+<g transform="rotate(-27 550 326)"><rect x="524" y="305" width="72" height="29" rx="10" fill="#13534D"/><rect x="529" y="330" width="62" height="9" rx="4" fill="#DCF9DA"/></g>
+<!-- cleaning shimmer -->
+<path d="M457 184c7 24 18 35 42 42-24 7-35 18-42 42-7-24-18-35-42-42 24-7 35-18 42-42Z" fill="#FFF9DB"/>
+<circle cx="480" cy="169" r="8" fill="#FFF9DB"/><circle cx="412" cy="195" r="5" fill="#FFF9DB"/>
+<path d="M311 168c3 12 10 19 22 22-12 3-19 10-22 22-3-12-10-19-22-22 12-3 19-10 22-22Z" fill="#F8F5DE"/>
+</svg>
